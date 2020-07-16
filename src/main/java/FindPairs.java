@@ -3,17 +3,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Main {
+public class FindPairs {
 
-    public static void main(String[] args) {
-       int[] arr = {4, 5, 10, 11, 6};
-       int[] a = null;
-       int m = -1;
 
-        System.out.println(findPairsInUnsortedArray(arr, m));
-        System.out.println(findPairsInSortedArray(arr, m));
-
-    }
 
     public static List<List> findPairsInSortedArray(int[] arr, int m) {
         if (arr == null || arr.length < 2) {
